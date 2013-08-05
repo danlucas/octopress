@@ -32,7 +32,8 @@ source: source
 destination: public/b
 plugins: plugins
 code_dir: downloads/code
-category_dir: blog/categories
+category_dir: category
+category_title_prefix: ''
 markdown: rdiscount
 rdiscount:
   extensions:
