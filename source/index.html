@@ -6,9 +6,15 @@ layout: default
   {% assign index = true %}
   {% for post in paginator.posts %}
   {% assign content = post.content %}
+  {% if post.project == nil %}
     <article>
       {% include article.html %}
     </article>
+  {% else %}
+    <article class="project-update {{post.project}}">
+      {% include article.html %}
+    </article>
+  {% endif %}
   {% endfor %}
   <div class="pagination">
     {% if paginator.next_page %}

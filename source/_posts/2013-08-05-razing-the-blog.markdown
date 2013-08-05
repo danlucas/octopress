@@ -4,6 +4,7 @@ title: "Razing the blog"
 date: 2013-08-05 10:37
 comments: true
 categories: [danlucas.github.io, blog]
+project: "danlucas.github.io"
 ---
 
 Not really.
